@@ -27,6 +27,7 @@ var fightOrSkip = function() {
 
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyInfo) {
+  debugger;
   while (playerInfo.health > 0 && enemyInfo.health > 0) {
     // ask player if they'd like to fight or run
    if (fightOrSkip()){
